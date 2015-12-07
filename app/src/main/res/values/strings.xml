@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Running3</string>
+    <string-array name="datas">
+        <item>TODAY</item>
+        <item>smth_escaped</item>
+        <item>23/11/2015</item>
+        <item>19/11/2015</item>
+        <item>16/11/2015</item>
+        <item>23/11/2015</item>
+        <item>19/11/2015</item>
+        <item>16/11/2015</item>
+    </string-array>
+    <string-array name="kilometers">
+        <item>7.72</item>
+        <item>smth_escaped</item>
+        <item>6.34</item>
+        <item>11.81</item>
+        <item>5.90</item>
+        <item>6.34</item>
+        <item>11.81</item>
+        <item>5.90</item>
+    </string-array>
+    <string name="km">km</string>
+    <string-array name="txt_avg_pace">
+        <item>8\'58\"</item>
+        <item>smth_escaped</item>
+        <item>6\'56\"</item>
+        <item>6\'34\"</item>
+        <item>6\'12\"</item>
+        <item>6\'56\"</item>
+        <item>6\'34\"</item>
+        <item>6\'12\"</item>
+    </string-array>
+    <string-array name="txt_total_time">
+        <item>1:09:18</item>
+        <item>smth_escaped</item>
+        <item>43:57</item>
+        <item>1:17:36</item>
+        <item>36:36</item>
+        <item>43:57</item>
+        <item>1:17:36</item>
+        <item>36:36</item>
+    </string-array>
+</resources>
