@@ -2,6 +2,7 @@ package com.devacademy.running3;
 
 import android.app.Activity;
 import android.graphics.Typeface;
+import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,7 +17,7 @@ import org.w3c.dom.Text;
  */
 public class CustomList extends ArrayAdapter<String> {
 
-    private final Activity context;
+    private final FragmentActivity context;
     private final String[] dataArray;
     private final String[] kilometersArray;
     private final String km;
@@ -26,7 +27,7 @@ public class CustomList extends ArrayAdapter<String> {
     private final Integer imgTotalTimeId;
     private final String[] txtTotalTime;
 
-    public CustomList (Activity context, String[] dataArray, String[] kilometersArray, String km,
+    public CustomList (FragmentActivity context, String[] dataArray, String[] kilometersArray, String km,
                        Integer[] imgRunDetailsId, Integer imgAvgPaceId, String[] txtAvgPace,
                        Integer imgTotalTimeId, String[] txtTotalTime) {
 
@@ -72,6 +73,9 @@ public class CustomList extends ArrayAdapter<String> {
         }
         return myView;
 
+        //getViewTypeCount
+        //getViewTypeItem
+        //pentru tipul elementului din lista
     }
 
 }

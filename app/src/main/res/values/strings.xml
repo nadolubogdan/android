@@ -41,4 +41,14 @@
         <item>1:17:36</item>
         <item>36:36</item>
     </string-array>
+    <string-array name="list_elements_information">
+        <item>First element information</item>
+        <item>smth_escaped</item>
+        <item>Second element information</item>
+        <item>Third element information</item>
+        <item>Fourth element infomation</item>
+        <item>Fifth element information</item>
+        <item>Sixth element information</item>
+        <item>Seventh element information</item>
+    </string-array>
 </resources>
